@@ -299,7 +299,7 @@ body {
   font-weight: bold;
   font-size: 44px;
   text-align: center;
-  width: 200px;
+  width: 300px;
 }
 .AfterFirstParaImportSec {
   display: flex;
@@ -409,7 +409,7 @@ body {
   font-weight: bold;
   font-size: 54px;
   line-height: 54px;
-  width: 550px;
+  width: 650px;
   text-align: center;
   color: #181a1e;
   margin: 0;
@@ -479,7 +479,7 @@ body {
   font-size: 44px;
   font-weight: bold;
   align-items: center;
-  width: 500px;
+  width: 650px;
   text-align: center;
 }
 .HowEffectsParaDiv .YelloSapn {
@@ -563,7 +563,7 @@ body {
   font-weight: bold;
   line-height: 54px;
   text-align: center;
-  width: 250px;
+  width: 300px;
 }
 
 .LocationsRow {
@@ -580,6 +580,7 @@ body {
   align-items: center;
   gap: 15px;
   width: 300px;
+  margin: 15px 0;
 }
 .EachBoxLocation h3 {
   margin: 0;
@@ -601,7 +602,7 @@ body {
   overflow-x: hidden;
 }
 .Subscribing h2 {
-  width: 500px;
+  width: 600px;
   text-align: center;
   margin: 0;
   font-size: 44px;
