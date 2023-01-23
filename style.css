@@ -1,0 +1,800 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: fit-content;
+  padding-bottom: 10vh !important;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.FirstSection {
+  width: 100vw;
+  background: rgb(234, 21, 21);
+  background: linear-gradient(
+    170deg,
+    rgba(234, 21, 21, 0.333858543417367) 0%,
+    rgba(255, 255, 255, 0.468312324929972) 40%,
+    rgba(234, 21, 21, 0.19380252100840334) 100%
+  );
+  max-height: fit-content;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5vh;
+}
+.FirstRowInPara {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10vw;
+  padding-top: 10vh;
+}
+.FirstParaSection {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 5vh;
+  max-width: 500px;
+}
+.YellowUnderLing {
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 255, 19);
+  text-decoration-thickness: 6px;
+}
+
+.BlueUnderLing {
+  text-decoration: underline;
+  text-decoration-color: blueviolet;
+  text-decoration-thickness: 6px;
+}
+.FirstSection h3 {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 42.21px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  word-spacing: 5px;
+}
+.SecPara h3 {
+  width: fit-content;
+}
+
+.Ellip776 {
+  margin-top: -1vh;
+}
+
+.Ticket {
+  text-decoration: none;
+  color: #1a1a1a;
+  padding: 10px 10px;
+  background-color: #64d171;
+  border: 1px solid black;
+  border-radius: 100px;
+  letter-spacing: -2%;
+  line-height: 10px;
+  font-size: 16px;
+  font-style: Medium;
+  vertical-align: top;
+  fill: #1a1a1a;
+  font-weight: bold;
+  box-shadow: 5px 4px 5px black;
+}
+.VedAndPic2 {
+  width: 98vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: -50px;
+}
+.MainPic {
+  background-color: tomato;
+  padding: 30px;
+  border-radius: 50px;
+  position: relative;
+  margin-top: 10vh;
+}
+
+.MainPic img {
+  cursor: pointer;
+}
+.MainPic .PicEll {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.MainPic .PicVec {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.ArrowLeftTop {
+  position: absolute;
+  top: -30%;
+  left: -35%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+.ArrowLeftTop span {
+  font-size: 20px;
+  font-weight: 300;
+  width: 250px;
+  transform: rotate(-20deg);
+}
+.ArrowLeftTop span .Academy {
+  font-weight: bold;
+}
+.ArrowRightBott {
+  position: absolute;
+  top: -10%;
+  right: -32%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 10px;
+}
+.ArrowRightBott span {
+  font-size: 20px;
+  font-weight: 300;
+  width: 250px;
+  transform: rotate(20deg);
+}
+.ArrowRightBott span .Academy {
+  font-weight: bold;
+}
+
+.SecSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+  padding: 50px;
+  flex-direction: column;
+  gap: 70px;
+  width: 98vw;
+  overflow: hidden;
+}
+.SecSectionParaDiv {
+  width: 300px;
+}
+.SecSection h2 {
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 54px;
+  text-align: center;
+  margin: 50px 0 0;
+}
+.BoxesDiv {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+.BoxesDiv div {
+  width: 300px;
+  height: 130px;
+}
+.H4Div1 {
+  background-color: #d9e8ff;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+.H4Div1 h4 {
+  font-weight: bold;
+  color: #0067ff;
+  text-align: center;
+  width: 70%;
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.H4Div2 {
+  background-color: #fff0cf;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+.H4Div2 h4 {
+  font-weight: bold;
+  color: #feb60d;
+  text-align: center;
+  width: 70%;
+  font-size: 22px;
+  line-height: 32px;
+}
+.H4Div3 {
+  background-color: #eae3ff;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+.H4Div3 h4 {
+  font-weight: bold;
+  color: #9771ff;
+  text-align: center;
+  width: 70%;
+  font-size: 22px;
+  line-height: 32px;
+}
+.H4Div4 {
+  background-color: #ccf0f3;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+.H4Div4 h4 {
+  font-weight: bold;
+  color: #01b5c5;
+  text-align: center;
+  width: 70%;
+  font-size: 22px;
+  line-height: 32px;
+}
+.contactusDiv {
+  padding: 20px 0px;
+  height: fit-content;
+}
+.contactusDiv a {
+  padding: 20px 40px;
+
+  background-color: #fc7557;
+  border: 1px solid black;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 24px;
+}
+.ImportSec {
+  margin-top: 100px;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.468312324929972) 40%,
+    rgba(234, 21, 21, 0.05654761904761907) 90%,
+    rgba(234, 21, 21, 0.09576330532212884) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.ImportSec h2 {
+  color: black;
+  font-weight: bold;
+  font-size: 44px;
+  text-align: center;
+  width: 200px;
+}
+.AfterFirstParaImportSec {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.LemonKarateImg {
+  padding: 10px;
+  background-color: #feb60d;
+  border-radius: 15px;
+}
+.TakeYours {
+  width: fit-content;
+}
+.TakeYours a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 15px 30px;
+  background-color: #64d171;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  border: 1px solid black;
+}
+.TakeYours a span {
+  width: fit-content;
+}
+.RightSectionOfPicANdPr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+}
+.LeftSectionOfPr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 60vw;
+}
+.hr {
+  width: 80%;
+  height: 1px;
+  background-color: gray;
+  opacity: 0.7;
+  margin: 40px 0 40px auto;
+}
+.NumWithFullDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: flex-start;
+  gap: 20px;
+}
+.NumWithFullDiv h2 {
+  padding: 0;
+  margin: 0;
+  width: fit-content;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 35px;
+  color: #1a1a1a;
+}
+.NumWithFullDiv h4 {
+  padding: 0;
+  margin: 0;
+  width: 70%;
+  text-align: right;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+}
+.NumWithFullDiv h4 span {
+  font-weight: bold;
+}
+.Number {
+  margin: 0;
+  padding: 3px 8px;
+  background-color: #f6f4f0;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 3px 3px black;
+}
+.WithSport {
+  width: 100vw;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.WithSportMainPara {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.WithSport h2 {
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 54px;
+  width: 550px;
+  text-align: center;
+  color: #181a1e;
+  margin: 0;
+  padding: 0;
+}
+.WithSport .WithSportMainPara h4 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  width: 490px;
+  text-align: center;
+  color: #181a1e;
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+.WithSportYell {
+  color: #feb60d;
+}
+.WithSportGren {
+  color: #64d171;
+}
+.FirstRowSoprtsDiv {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.MainBoxSports {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 20px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 50px gray;
+}
+.MainBoxSports h4 {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+}
+.MainBoxSports h4 span {
+  font-weight: bold;
+}
+.SecRow {
+  margin-left: 100px;
+}
+.ThirdRow {
+  margin-right: 100px;
+}
+.WithSport .contactusDiv {
+  margin-top: 80px;
+}
+.HowEffects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  overflow-x: hidden;
+}
+.HowEffectsParaDiv {
+  font-size: 44px;
+  font-weight: bold;
+  align-items: center;
+  width: 500px;
+  text-align: center;
+}
+.HowEffectsParaDiv .YelloSapn {
+  color: #feb60d;
+}
+.HowEffectsParaDiv .GreenSpan {
+  color: #64d171;
+}
+.GrediandSectInEffecting {
+  width: 80vw;
+  height: fit-content;
+  padding: 20px 40px;
+  background: rgb(234, 21, 21);
+  background: linear-gradient(
+    90deg,
+    rgba(234, 21, 21, 0.09576330532212884) 0%,
+    rgba(239, 82, 82, 0.38988095238095233) 0%,
+    rgba(255, 255, 255, 0.8464635854341737) 100%
+  );
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.GraBoxes {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  max-width: 300px;
+  min-width: 200px;
+  padding: 15px 5px 15px 0;
+}
+.GraEachRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+.GraBoxes h4 {
+  color: black;
+  font-size: 22px;
+  line-height: 36px;
+  text-align: start;
+  margin: 0;
+  font-weight: 500;
+}
+.GraBoxes h3 {
+  float: left;
+  padding: 5px 10px;
+  margin: 0;
+  background-color: #88f5ff;
+  color: #01b5c5;
+  width: fit-content;
+}
+.GraBoxes h4 span {
+  font-weight: bold;
+}
+.GrediandSectInEffecting .TakeYours a {
+  max-width: 300px;
+  min-width: 150px;
+  text-align: center;
+}
+.Location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 50px;
+  width: 100vw;
+  overflow-x: hidden;
+}
+.LocParaDIv h2 {
+  font-size: 44px;
+  font-weight: bold;
+  line-height: 54px;
+  text-align: center;
+  width: 250px;
+}
+
+.LocationsRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.EachBoxLocation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 300px;
+}
+.EachBoxLocation h3 {
+  margin: 0;
+  padding: 0;
+}
+.EachBoxLocation h5 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.Subscribing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  gap: 20px;
+  width: 100vw;
+  overflow-x: hidden;
+}
+.Subscribing h2 {
+  width: 500px;
+  text-align: center;
+  margin: 0;
+  font-size: 44px;
+  line-height: 54px;
+  font-weight: bold;
+}
+.Subscribing h4 {
+  width: 400px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+}
+.SubBoxs {
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.EachSubBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  gap: 50px;
+  padding: 20px;
+  border: 1px solid rgba(128, 128, 128, 0.226);
+  width: fit-content;
+  border-radius: 10px;
+}
+.EachSubBox h3 {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 34px;
+}
+.EachSubBox h2 {
+  margin: 0;
+  padding: 0;
+  width: fit-content;
+  font-weight: bold;
+  display: flex;
+}
+.Real {
+  opacity: 0.7;
+}
+.EachSubBox h4 {
+  margin: 0;
+  padding: 10px;
+  width: 270px;
+  background-color: #e6fcf4;
+  color: #22c58e;
+  cursor: pointer;
+}
+.EachSubBox h5 {
+  margin: 10px 0 0 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+@media screen and (max-width: 1220px) {
+  .MainPic .ArrowLeftTop {
+    top: -50%;
+    left: -30%;
+    transform: rotate(0deg);
+  }
+  .ArrowRightBott {
+    top: 90%;
+    right: -10%;
+    transform: rotate(-270deg);
+  }
+  .ArrowRightBott span {
+    top: 100%;
+    right: 0%;
+    transform: rotate(220deg);
+  }
+  .MainPic {
+    width: 500px;
+  }
+  .MainPicStart {
+    width: 430px;
+  }
+}
+@media screen and (max-width: 920px) {
+  .MainPic .ArrowLeftTop {
+    top: -50%;
+    left: -10%;
+    transform: rotate(0deg);
+  }
+  .ArrowRightBott {
+    top: 90%;
+    right: 0%;
+    transform: rotate(-270deg);
+  }
+  .ArrowRightBott span {
+    top: 100%;
+    right: 0%;
+    transform: rotate(220deg);
+  }
+  .VedAndPic2 {
+    flex-direction: column;
+  }
+  .FirstRowInPara {
+    flex-direction: column;
+    gap: 10px !important;
+  }
+}
+@media screen and (max-width: 590px) {
+  .MainPic {
+    width: 300px;
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+  .MainPicStart {
+    width: 240px;
+  }
+  .MainPic .ArrowLeftTop {
+    top: -100%;
+    left: -0%;
+    transform: rotate(0deg);
+  }
+  .MainPic .ArrowLeftTop span {
+    font-size: 18px;
+    width: 100px;
+  }
+  .ArrowRightBott {
+    top: 100%;
+    right: 10%;
+    transform: rotate(-270deg);
+    flex-direction: row;
+    justify-content: end;
+    align-items: flex-start;
+  }
+  .ArrowRightBott .RightBottSpan {
+    top: 10%;
+    right: 10%;
+    width: 150px;
+    margin-left: -60px;
+    margin-top: -40px;
+    transform: rotate(-140deg);
+  }
+  .PicTop {
+    align-self: flex-start;
+  }
+  .PicBott {
+    align-self: flex-end;
+  }
+  .LemonKarateImg {
+    width: 300px;
+  }
+  .LemonKarateImg img {
+    width: 280px;
+  }
+  .LeftSectionOfPr {
+    width: 98vw;
+  }
+  .WithSportMainPara h2 {
+    width: 300px !important;
+    font-size: 32px;
+  }
+  .WithSportMainPara h4 {
+    width: 300px !important;
+  }
+  .HowEffectsParaDiv {
+    width: 300px;
+    font-size: 32px;
+  }
+  .HowEffectsParaDiv h2 {
+    font-size: 32px;
+  }
+  .Subscribing h2 {
+    font-size: 32px;
+    width: 260px;
+  }
+  .NumWithFullDiv h4 {
+    width: 95%;
+  }
+  .FirstParaSection h3 {
+    font-size: 26px;
+  }
+  .ThirdRow {
+    margin-right: 0;
+    width: 95vw;
+  }
+  .SecRow {
+    margin-left: 0;
+  }
+  .MainBoxSports {
+    width: 90vw;
+  }
+}
