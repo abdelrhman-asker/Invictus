@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   font-family: Montserrat-Arabic;
-
 }
 @font-face {
   font-family: Montserrat-Arabic;
@@ -694,51 +693,73 @@ body {
   }
 }
 @media screen and (max-width: 920px) {
-  .MainPic .ArrowLeftTop {
-    top: -50%;
-    left: -10%;
-    transform: rotate(0deg);
+  .TicketDiv {
+    margin-top: 100px;
   }
-  .ArrowRightBott {
-    top: 90%;
-    right: 0%;
-    transform: rotate(-270deg);
-  }
-  .ArrowRightBott span {
-    top: 100%;
-    right: 0%;
-    transform: rotate(220deg);
-  }
+
   .VedAndPic2 {
     flex-direction: column;
+    margin-top: 25vh;
+  }
+  .RoundedPics {
+    width: 100px;
+    height: 100px;
+  }
+  .FirstSection {
+    gap: 10px;
   }
   .FirstRowInPara {
-    flex-direction: column;
+    position: relative;
     gap: 10px !important;
+    width: 95vw;
+  }
+  .FirstParaSection {
+    gap: 70px;
+  }
+  .FirstRowInPara .Ellip775 {
+    position: absolute;
+    top: 20vh;
+    right: 2vw;
+  }
+  .PicTop {
+    position: absolute;
+    top: 40vh;
+    left: 2vw;
+  }
+  .FirstRowInPara .Ellip776 {
+    position: absolute;
+    top: 320%;
+    left: -2vw;
+  }
+  .PicBott {
+    position: absolute;
+    top: 110%;
+    right: 1vw;
   }
 }
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 920px) {
   .MainPic {
-    width: 300px;
+    width: 280px;
     margin-top: 0;
-    margin-bottom: 50px;
+    margin-bottom: 40vh;
   }
   .MainPicStart {
-    width: 240px;
+    width: 220px;
   }
   .MainPic .ArrowLeftTop {
     top: -100%;
-    left: -0%;
-    transform: rotate(0deg);
+    left: 5%;
+    transform: rotate(40deg);
   }
   .MainPic .ArrowLeftTop span {
-    font-size: 18px;
-    width: 100px;
+    font-size: 16px;
+    width: 200px;
+    transform: rotate(-40deg);
   }
   .ArrowRightBott {
     top: 100%;
     right: 10%;
-    transform: rotate(-270deg);
+    transform: rotate(-210deg);
     flex-direction: row;
     justify-content: end;
     align-items: flex-start;
@@ -746,10 +767,10 @@ body {
   .ArrowRightBott .RightBottSpan {
     top: 10%;
     right: 10%;
-    width: 150px;
-    margin-left: -60px;
-    margin-top: -40px;
-    transform: rotate(-140deg);
+    width: 200px;
+    margin-left: -95px;
+    margin-top: -45px;
+    transform: rotate(-150deg);
   }
   .PicTop {
     align-self: flex-start;
@@ -768,27 +789,27 @@ body {
   }
   .WithSportMainPara h2 {
     width: 300px !important;
-    font-size: 32px;
+    font-size: 28px;
   }
   .WithSportMainPara h4 {
     width: 300px !important;
   }
   .HowEffectsParaDiv {
     width: 300px;
-    font-size: 32px;
+    font-size: 28px;
   }
   .HowEffectsParaDiv h2 {
-    font-size: 32px;
+    font-size: 28px;
   }
   .Subscribing h2 {
-    font-size: 32px;
+    font-size: 28px;
     width: 260px;
   }
   .NumWithFullDiv h4 {
     width: 95%;
   }
   .FirstParaSection h3 {
-    font-size: 26px;
+    font-size: 22px;
   }
   .ThirdRow {
     margin-right: 0;
