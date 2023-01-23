@@ -262,11 +262,13 @@ body {
   line-height: 32px;
 }
 .contactusDiv {
-  padding: 20px 0px;
   height: fit-content;
+  min-width: fit-content;
+  max-width: 50vw;
+  text-align: center;
 }
 .contactusDiv a {
-  padding: 20px 40px;
+  padding: 20px 30px;
 
   background-color: #fc7557;
   border: 1px solid black;
@@ -290,7 +292,6 @@ body {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  overflow-x: hidden;
 }
 
 .ImportSec h2 {
@@ -392,7 +393,6 @@ body {
 }
 .WithSport {
   width: 100vw;
-  overflow-x: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -467,6 +467,7 @@ body {
   margin-top: 80px;
 }
 .HowEffects {
+  margin-top: 70px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -488,7 +489,8 @@ body {
   color: #64d171;
 }
 .GrediandSectInEffecting {
-  width: 70vw;
+  min-width: 70vw;
+  max-width: 100vw;
   height: fit-content;
   padding: 70px 40px;
   background: rgb(234, 21, 21);
@@ -555,7 +557,6 @@ body {
   gap: 50px;
   margin-top: 50px;
   width: 100vw;
-  overflow-x: hidden;
 }
 .LocParaDIv h2 {
   font-size: 44px;
@@ -598,7 +599,6 @@ body {
   margin-top: 100px;
   gap: 20px;
   width: 100vw;
-  overflow-x: hidden;
 }
 .Subscribing h2 {
   width: 600px;
@@ -699,7 +699,7 @@ body {
 
   .VedAndPic2 {
     flex-direction: column;
-    margin-top: 25vh;
+    margin-top: 30vh;
   }
   .RoundedPics {
     width: 100px;
@@ -718,22 +718,22 @@ body {
   }
   .FirstRowInPara .Ellip775 {
     position: absolute;
-    top: 20vh;
+    top: 21vh;
     right: 2vw;
   }
   .PicTop {
     position: absolute;
-    top: 40vh;
+    top: 45vh;
     left: 2vw;
   }
   .FirstRowInPara .Ellip776 {
     position: absolute;
-    top: 320%;
+    top: 300%;
     left: -2vw;
   }
   .PicBott {
     position: absolute;
-    top: 110%;
+    top: 130%;
     right: 1vw;
   }
   .ImportSec {
@@ -744,6 +744,9 @@ body {
     position: absolute;
     bottom: -50px;
     padding-bottom: 100px;
+  }
+  .SecSectionParaDiv {
+    width: 300px;
   }
 }
 @media screen and (max-width: 920px) {
@@ -838,7 +841,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 70vw;
     background: rgb(234, 21, 21);
     background: linear-gradient(
       0deg,
@@ -853,5 +855,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 50px;
+  }
+  .contactusDiv a {
+    font-size: 18px;
   }
 }
