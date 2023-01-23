@@ -797,4 +797,7 @@ body {
   .MainBoxSports {
     width: 90vw;
   }
+  .FirstRowSoprtsDiv {
+    gap: 50px;
+  }
 }
