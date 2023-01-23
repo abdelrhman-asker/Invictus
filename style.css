@@ -50,11 +50,11 @@ body {
   max-width: 500px;
 }
 .YellowUnderLing {
-  border-bottom: 4px yellow solid;
+  border-bottom: 4px #feb60d solid;
 }
 
 .BlueUnderLing {
-  border-bottom: 4px blueviolet solid;
+  border-bottom: 4px #9771ff solid;
 }
 .FirstSection h3 {
   font-weight: bold;
@@ -171,7 +171,7 @@ body {
   overflow: hidden;
 }
 .SecSectionParaDiv {
-  width: 300px;
+  width: 400px;
 }
 .SecSection h2 {
   font-weight: bold;
@@ -488,9 +488,9 @@ body {
   color: #64d171;
 }
 .GrediandSectInEffecting {
-  width: 80vw;
+  width: 70vw;
   height: fit-content;
-  padding: 20px 40px;
+  padding: 70px 40px;
   background: rgb(234, 21, 21);
   background: linear-gradient(
     90deg,
@@ -736,6 +736,15 @@ body {
     top: 110%;
     right: 1vw;
   }
+  .ImportSec {
+    position: relative;
+    padding-bottom: 100px;
+  }
+  .TakeYoursAbs {
+    position: absolute;
+    bottom: -50px;
+    padding-bottom: 100px;
+  }
 }
 @media screen and (max-width: 920px) {
   .MainPic {
@@ -788,11 +797,11 @@ body {
     width: 98vw;
   }
   .WithSportMainPara h2 {
-    width: 300px !important;
+    width: 55vw !important;
     font-size: 28px;
   }
   .WithSportMainPara h4 {
-    width: 300px !important;
+    width: 65vw !important;
   }
   .HowEffectsParaDiv {
     width: 300px;
@@ -822,6 +831,27 @@ body {
     width: 90vw;
   }
   .FirstRowSoprtsDiv {
+    gap: 0px;
+    flex-direction: column-reverse;
+  }
+  .GrediandSectInEffecting {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    background: rgb(234, 21, 21);
+    background: linear-gradient(
+      0deg,
+      rgba(234, 21, 21, 0.09576330532212884) 0%,
+      rgba(255, 255, 255, 0.8464635854341737) 0%,
+      rgba(239, 82, 82, 0.38988095238095233) 100%
+    );
+    border-radius: 80px;
+  }
+  .GraEachRow {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
     gap: 50px;
   }
 }
