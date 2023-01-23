@@ -1,5 +1,11 @@
 * {
   box-sizing: border-box;
+  font-family: Montserrat-Arabic;
+
+}
+@font-face {
+  font-family: Montserrat-Arabic;
+  src: url(./fonts/Montserrat-Arabic-Regular.ttf);
 }
 body {
   margin: 0 !important;
@@ -45,15 +51,11 @@ body {
   max-width: 500px;
 }
 .YellowUnderLing {
-  text-decoration: underline;
-  text-decoration-color: rgb(255, 255, 19);
-  text-decoration-thickness: 6px;
+  border-bottom: 4px yellow solid;
 }
 
 .BlueUnderLing {
-  text-decoration: underline;
-  text-decoration-color: blueviolet;
-  text-decoration-thickness: 6px;
+  border-bottom: 4px blueviolet solid;
 }
 .FirstSection h3 {
   font-weight: bold;
