@@ -69,9 +69,6 @@ body {
   width: fit-content;
 }
 
-.Ellip776 {
-  margin-top: -1vh;
-}
 
 .Ticket {
   text-decoration: none;
@@ -710,11 +707,11 @@ body {
 
   .VedAndPic2 {
     flex-direction: column;
-    margin-top: 30vh;
+    margin: 30vh 0 0;
   }
   .RoundedPics {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
   }
   .FirstSection {
     gap: 10px;
@@ -729,22 +726,22 @@ body {
   }
   .FirstRowInPara .Ellip775 {
     position: absolute;
-    top: 21vh;
+    top: 53%;
     right: 2vw;
   }
   .PicTop {
     position: absolute;
-    top: 45vh;
+    top: 45%;
     left: 2vw;
   }
   .FirstRowInPara .Ellip776 {
     position: absolute;
-    top: 300%;
+    top: 340%;
     left: -2vw;
   }
   .PicBott {
     position: absolute;
-    top: 130%;
+    top: 125%;
     right: 1vw;
   }
   .ImportSec {
